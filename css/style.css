@@ -131,7 +131,7 @@ img {
 /* da 0 a 1140 come px di container*/
 
  @media screen and (max-width: 1140px) {
-    
+
     .container {
         max-width: 100%;
     }
@@ -143,5 +143,25 @@ img {
 
 
 @media screen and (max-width: 480px) {
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
     
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+
+   
 }
